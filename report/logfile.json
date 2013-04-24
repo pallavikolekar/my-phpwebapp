@@ -1,0 +1,92 @@
+{
+    "event": "suiteStart",
+    "suite": "StringTest",
+    "tests": 4
+}{
+    "event": "testStart",
+    "suite": "StringTest",
+    "test": "StringTest::testConnectionIsValid"
+}{
+    "event": "test",
+    "suite": "StringTest",
+    "test": "StringTest::testConnectionIsValid",
+    "status": "pass",
+    "time": 0.26143598556519,
+    "trace": [
+
+    ],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "StringTest",
+    "test": "StringTest::testConnectionIsInvalid"
+}{
+    "event": "test",
+    "suite": "StringTest",
+    "test": "StringTest::testConnectionIsInvalid",
+    "status": "error",
+    "time": 0.0062727928161621,
+    "trace": [
+        {
+            "file": "\/home\/glmstudio\/my-phpwebapp\/src\/main\/php\/String\/String.php",
+            "line": 9
+        },
+        {
+            "file": "\/home\/glmstudio\/my-phpwebapp\/src\/test\/php\/StringTest.php",
+            "line": 23,
+            "function": "connectToServer",
+            "class": "String",
+            "type": "->",
+            "args": [
+                ""
+            ]
+        }
+    ],
+    "message": "that's not a server name!",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "StringTest",
+    "test": "StringTest::testIsEmailValid"
+}{
+    "event": "test",
+    "suite": "StringTest",
+    "test": "StringTest::testIsEmailValid",
+    "status": "pass",
+    "time": 0.0024650096893311,
+    "trace": [
+
+    ],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "StringTest",
+    "test": "StringTest::testCountOfArray"
+}{
+    "event": "test",
+    "suite": "StringTest",
+    "test": "StringTest::testCountOfArray",
+    "status": "fail",
+    "time": 0.0043690204620361,
+    "trace": [
+        {
+            "file": "\/home\/glmstudio\/my-phpwebapp\/src\/test\/php\/StringTest.php",
+            "line": 33,
+            "function": "assertCount",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::",
+            "args": [
+                2,
+                [
+                    1,
+                    3,
+                    4
+                ]
+            ]
+        }
+    ],
+    "message": "Failed asserting that actual size 3 matches expected size 2.",
+    "output": ""
+}

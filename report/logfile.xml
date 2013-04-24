@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="StringTest" file="/home/glmstudio/my-phpwebapp/src/test/php/StringTest.php" tests="4" assertions="3" failures="1" errors="1" time="0.060883">
+    <testcase name="testConnectionIsValid" class="StringTest" file="/home/glmstudio/my-phpwebapp/src/test/php/StringTest.php" line="14" assertions="1" time="0.050956"/>
+    <testcase name="testConnectionIsInvalid" class="StringTest" file="/home/glmstudio/my-phpwebapp/src/test/php/StringTest.php" line="20" assertions="0" time="0.002696">
+      <error type="Exception">StringTest::testConnectionIsInvalid
+Exception: that's not a server name!
+
+/home/glmstudio/my-phpwebapp/src/main/php/String/String.php:9
+/home/glmstudio/my-phpwebapp/src/test/php/StringTest.php:23
+</error>
+    </testcase>
+    <testcase name="testIsEmailValid" class="StringTest" file="/home/glmstudio/my-phpwebapp/src/test/php/StringTest.php" line="26" assertions="1" time="0.002469"/>
+    <testcase name="testCountOfArray" class="StringTest" file="/home/glmstudio/my-phpwebapp/src/test/php/StringTest.php" line="31" assertions="1" time="0.004762">
+      <failure type="PHPUnit_Framework_ExpectationFailedException">StringTest::testCountOfArray
+Failed asserting that actual size 3 matches expected size 2.
+
+/home/glmstudio/my-phpwebapp/src/test/php/StringTest.php:33
+</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
