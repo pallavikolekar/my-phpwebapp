@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpcs version="1.4.5">
+ <file name="/home/glmstudio/my-phpwebapp/index.php" errors="2" warnings="0">
+  <error line="2" column="1" source="PEAR.Commenting.FileComment.WrongStyle" severity="5">You must use &quot;/**&quot; style comments for a file comment</error>
+  <error line="4" column="1" source="PEAR.Commenting.InlineComment.WrongStyle" severity="5">Perl-style comments are not allowed. Use &quot;// Comment.&quot; or &quot;/* comment */&quot; instead.</error>
+ </file>
+</phpcs>
